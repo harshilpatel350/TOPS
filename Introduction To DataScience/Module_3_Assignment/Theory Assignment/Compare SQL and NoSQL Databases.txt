@@ -1,1 +1,30 @@
-
+1. Definition:
+• 	SQL (Structured Query Language) Databases are relational databases that store data in tables with predefined schemas. They use SQL for querying and managing data.
+• 	NoSQL (Not Only SQL) Databases are non-relational and store data in various formats like key-value pairs, documents, graphs, or wide-columns. They offer flexible schemas.
+2. Data Model:
+• 	SQL: Relational model with tables, rows, and columns.
+• 	NoSQL: Non-relational models including document, key-value, column-family, and graph.
+3. Schema:
+• 	SQL: Fixed schema; changes require altering the database structure.
+• 	NoSQL: Dynamic schema; allows flexible and evolving data structures.
+4. Scalability:
+• 	SQL: Vertically scalable (adding more power to a single server).
+• 	NoSQL: Horizontally scalable (adding more servers to distribute load).
+5. Transactions:
+• 	SQL: Strong ACID (Atomicity, Consistency, Isolation, Durability) compliance ensures reliable transactions.
+• 	NoSQL: Often favors BASE (Basically Available, Soft state, Eventually consistent) for performance and scalability.
+6. Query Language:
+• 	SQL: Uses structured query language (SQL) for complex queries.
+• 	NoSQL: Uses various query methods depending on the database type; often less standardized.
+7. Use Cases:
+• 	SQL: Ideal for applications requiring complex queries, data integrity, and structured data (e.g., banking, ERP systems).
+• 	NoSQL: Suitable for big data, real-time analytics, content management, and applications with rapidly changing data (e.g., social media, IoT).
+8. Examples:
+• 	SQL: MySQL, PostgreSQL, Oracle, Microsoft SQL Server.
+• 	NoSQL: MongoDB, Cassandra, Redis, Couchbase, Neo4j.
+9. Flexibility:
+• 	SQL: Less flexible due to rigid schema.
+• 	NoSQL: Highly flexible and adaptable to changing data needs.
+10. Performance:
+• 	SQL: Efficient for structured data and complex joins.
+• 	NoSQL: Optimized for high-speed reads/writes and large-scale data.

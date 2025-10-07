@@ -1,14 +1,6 @@
-# Hospital Database ER Diagram
-
-This document describes the schema of the hospital database, as represented in the attached ER diagram.
-
-## Overview
-
-The database models various aspects of a hospital's operations, including appointments, billing, staff, treatments, and patient information.
+# Hospital Database
 
 ## Tables
-
-Here's a breakdown of the tables and their key attributes:
 
 *   **appointments**:
     *   `appointment_id` (INT, PRIMARY KEY)
@@ -66,9 +58,3 @@ Here's a breakdown of the tables and their key attributes:
 *   `billing` references `treatments` (one-to-many)
 *   `treatments` references `doctors` (one-to-many)
 *   `treatments` references `patients` (one-to-many)
-
-## Notes
-
-*   This schema is a simplified representation of a hospital database.
-*   ENUM data types are used for fields like `status` in the `appointments` table.
-*   Foreign keys enforce referential integrity between tables.

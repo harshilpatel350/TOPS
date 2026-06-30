@@ -1,0 +1,30 @@
+{
+    "restaurant_chatbot": {
+        "greeting_prompts": [
+            "Hello! Welcome to our restaurant.",
+            "Hi there! Ready to explore our menu?",
+            "Good evening! What can I get for you today?"
+        ],
+        "farewell_prompts": [
+            "Thank you for dining with us! Have a great day!",
+            "Goodbye! We hope to see you again soon!",
+            "Thanks for visiting! Enjoy your meal!"
+        ],
+        "recommendation_prompts": [
+            "Our chef recommends the Margherita Pizza today!",
+            "The Caesar Salad is fresh and delicious!",
+            "Try our Chocolate Lava Cake — it's a crowd favourite!"
+        ],
+        "error_prompts": [
+            "I'm sorry, I didn't understand that. Could you rephrase?",
+            "I'm not sure what you mean. Try saying 'menu' or 'order'.",
+            "Let me help you — say 'help' to see what I can do."
+        ]
+    },
+    "prompt_engineering": {
+        "zero_shot": "Classify the sentiment of this text: '{text}'",
+        "few_shot": "Examples:\n- 'Great product!' → Positive\n- 'Terrible service.' → Negative\n\nClassify: '{text}' →",
+        "chain_of_thought": "Solve this step by step: {problem}",
+        "role_based": "You are a {role}. {instruction}"
+    }
+}

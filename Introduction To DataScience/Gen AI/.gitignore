@@ -1,0 +1,90 @@
+# ──────────────────────────────────────────────
+# Python
+# ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# ──────────────────────────────────────────────
+# Jupyter Notebook
+# ──────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ──────────────────────────────────────────────
+# IDE / Editor
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ──────────────────────────────────────────────
+# OS
+# ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ──────────────────────────────────────────────
+# PyTorch / ML
+# ──────────────────────────────────────────────
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+
+# ──────────────────────────────────────────────
+# Data (large files downloaded at runtime)
+# ──────────────────────────────────────────────
+datasets/FashionMNIST/
+datasets/MNIST/
+datasets/*.csv
+datasets/*.zip
+datasets/*.tar.gz
+
+# ──────────────────────────────────────────────
+# Generated outputs (recreatable)
+# ──────────────────────────────────────────────
+generated_images/*.png
+generated_images/*.jpg
+outputs/*.txt
+outputs/*.json
+outputs/*.png
+reports/*.html
+
+# ──────────────────────────────────────────────
+# Logs
+# ──────────────────────────────────────────────
+*.log
+logs/
+
+# ──────────────────────────────────────────────
+# Pytest / Coverage
+# ──────────────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
